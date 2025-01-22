@@ -1,0 +1,153 @@
+*
+{
+  .navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+}
+/* Landing Section Styling */
+#landing {
+    background-image: url("./images/back3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.rounded-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-color: gray;
+    animation: none; /* Disables animation globally */
+}
+
+@media (max-width: 576px) {
+    .rounded-img {
+        animation: none; /* Disables animation for small screens */
+        transform: none; /* Ensures no transform effects */
+        margin: 0 auto; /* Centers the image */
+    }
+}
+
+#landing h1 {
+
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+
+#landing h2 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 0.5rem;
+
+}
+
+#projects{
+  background-image: url(./images/bg13.jpg);
+color: white;
+}
+
+
+#projects .card-title {
+    color: black;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+#projects .card-text {
+    color: black;
+    text-align: center;
+     font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+
+
+}
+
+
+/* Tools Section Styles */
+#tools{
+  background-image: url(./images/bg11.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#tools h2 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+
+
+}
+
+#tools h3 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.responsive-img {
+    width: 60px;
+    height: 60px;
+    margin: 0.5rem;
+}
+/* Contact Section Styles */
+#contacts {
+    color: white;
+    background-image: url('./images/bg7.jpg');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+#contacts h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#contacts h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#contacts .form-label {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+#contacts .btn-primary {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: gray;
+    width: 60px;
+    height: 60px;
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+
+#contacts .fa {
+    margin: 0 10px;
+    color: #007bff;
+}
+
+#contacts .fa:hover {
+    color: #0056b3;
+}
